@@ -1,0 +1,137 @@
+.hero {
+    height: 150vh;
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-content {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.tech-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.tech-logos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.tech-logos img {
+    width: 10%;
+    transition: 0.3s;
+}
+
+.tech-logos img:hover {
+    transform: scale(1.2);
+}
+
+.logo {
+    width: 40px;
+}
+
+.courses-section {
+    background: #1e3c72;
+    color: black;
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.course-card {
+    background: rgb(177, 177, 209);
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.floating-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 80%;
+    pointer-events: none;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(0, 123, 255, 0.2);
+    animation: float 6s infinite ease-in-out;
+}
+
+.shape1 {
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 10%;
+}
+
+.shape2 {
+    width: 80px;
+    height: 80px;
+    top: 60%;
+    right: 15%;
+}
+
+.shape3 {
+    width: 120px;
+    height: 120px;
+    bottom: 10%;
+    left: 40%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

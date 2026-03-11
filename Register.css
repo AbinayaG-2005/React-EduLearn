@@ -1,0 +1,24 @@
+.register {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background: #4694ee;
+    color: white;
+    border: none;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
